@@ -1,6 +1,6 @@
 body {
   padding: 0;
-  background-image: linear-gradient(#929AAB, #F7F7F7, #eeeeee, #393e46);
+  background-image: linear-gradient(#929aab, #f7f7f7, #eee, #393e46);
 }
 
 #nav-bar {
@@ -37,17 +37,22 @@ body {
   padding: 0 10% 5% 10%;
 }
 
+#home, #about, #services {
+  height: 50vh;
+}
 
-/*Small devices (landscape phones, less than 768px)*/
+/* Small devices (landscape phones, less than 768px) */
 
 @media screen and (min-width:300px) and (max-width: 767.98px) {
   #nav-bar {
-      display: block;
+    display: block;
   }
+
   #header-img {
-      width: 100%;
+    width: 100%;
   }
+
   .my-sections {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
